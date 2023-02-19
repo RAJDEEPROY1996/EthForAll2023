@@ -1,0 +1,55 @@
+    Ration Distribution Flow :
+    
+    - Register Item to be distributed only by admin
+        - Below Poverty Line Price uint
+        - Above Poverty Line Price uint
+        - Weight of Item uint
+        - mapping(string => RegisterItem) public item;        item[Rice] = RegisterItem
+        - event Items(string Name,uint BelowPovertyPrice,uint AbovePovertyPrice,uint Weight);
+
+    - Edit Registered Item details        
+        - New Below Poverty Line Price uint
+        - New Above Poverty Line Price uint
+        - New Weight of Item uint
+        - 0 to Edit 1 to delete
+
+    - Register Citizen 
+        - Encrypted IPFS link string 
+        - wallet address address
+        - mapping(uint => RegisterCitizen) public citizen;        citizen[RationCardNo] = RegisterCitizen
+        - event BeneficiaryRegistration(RationCardNo,wallet address)
+     
+    - update citizen detail
+        - Encrypted IPFS link string
+    
+    - delete Citizen
+
+    - Register Ration
+        - Encrypted IPFS link string
+        - wallet address address
+        - mapping(uint => RegisterRation) public rationShop;      rationShop[ShopNo] = RegisterRation
+        - event RationShopRegistration(ShopNo, wallet address)    
+
+    - update Ration Shop detail
+        - Encrypted IPFS link string 
+
+    - delete RationShop    
+    
+    - Add Item to Ration Shop by the admin
+        - Item Name string
+        - Weight uint
+        - mapping(uint => mapping(string => uint)) public goods;    goods[RationShop][Rice] = 10
+        - event StoreItemToRationShop(rationShopId,rice,weight)	
+	
+    - Ration Distribution To Public returns uint
+        - RationCardNo uint
+        - ShopNo uint
+        - Item name string[]
+        - time of delivery 
+        - ReceiptNo uint
+        - rationDeliveryToPublic[] public rationDelivery
+        - event RationDelivery(rationCardNo,ReceiptNo);
+        
+    - Delete_Ration_Details() 
+
+	

@@ -1,0 +1,2 @@
+Deployed at BSCtestNet - https://testnet.bscscan.com/address/0x9c69E65F468693D505D4F5A2cB2690dcb7e87790#code
+Deployed at Mantle - https://explorer.testnet.mantle.xyz/address/0x9c335131F980372cA7acfbc9a6D71E93199e841d

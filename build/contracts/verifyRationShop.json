@@ -1,0 +1,117 @@
+{
+  "contractName": "verifyRationShop",
+  "abi": [],
+  "metadata": "{\"compiler\":{\"version\":\"0.8.7+commit.e28d00a7\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/verifyRationShop.sol\":\"verifyRationShop\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/verifyRationShop.sol\":{\"keccak256\":\"0xe9745cf375bd8c61dfd70e2168e2c98d631fbb2b7112879de317b7fd146ea3bc\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://a742d9ec81bbfecf6b850390943f8a7dfdafe795d67043ee0e04a70431094e7f\",\"dweb:/ipfs/QmW5XUBLZ62C8gx8dodvnJ5tzAQgYfT6ov7QqeNVLLQiFo\"]}},\"version\":1}",
+  "bytecode": "0x6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea2646970667358221220bbffe2e560c0d298cafb80afc90b381c63b34abd952f4b6cc5486007a3ebd11164736f6c63430008070033",
+  "deployedBytecode": "0x6080604052600080fdfea2646970667358221220bbffe2e560c0d298cafb80afc90b381c63b34abd952f4b6cc5486007a3ebd11164736f6c63430008070033",
+  "immutableReferences": {},
+  "generatedSources": [],
+  "deployedGeneratedSources": [],
+  "sourceMap": "62:31:8:-:0;;;;;;;;;;;;;;;;;;;",
+  "deployedSourceMap": "62:31:8:-:0;;;;;",
+  "source": "// SPDX-License-Identifier: MIT\r\n\r\npragma solidity ^0.8.7;\r\n\r\ncontract verifyRationShop{\r\n\r\n}",
+  "sourcePath": "C:\\Users\\RAJDEEP\\Desktop\\Smart Contract\\contracts\\verifyRationShop.sol",
+  "ast": {
+    "absolutePath": "project:/contracts/verifyRationShop.sol",
+    "exportedSymbols": {
+      "verifyRationShop": [
+        1184
+      ]
+    },
+    "id": 1185,
+    "license": "MIT",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 1183,
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".7"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "35:23:8"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "id": 1184,
+        "linearizedBaseContracts": [
+          1184
+        ],
+        "name": "verifyRationShop",
+        "nameLocation": "71:16:8",
+        "nodeType": "ContractDefinition",
+        "nodes": [],
+        "scope": 1185,
+        "src": "62:31:8",
+        "usedErrors": []
+      }
+    ],
+    "src": "35:58:8"
+  },
+  "legacyAST": {
+    "absolutePath": "project:/contracts/verifyRationShop.sol",
+    "exportedSymbols": {
+      "verifyRationShop": [
+        1184
+      ]
+    },
+    "id": 1185,
+    "license": "MIT",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 1183,
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".7"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "35:23:8"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "id": 1184,
+        "linearizedBaseContracts": [
+          1184
+        ],
+        "name": "verifyRationShop",
+        "nameLocation": "71:16:8",
+        "nodeType": "ContractDefinition",
+        "nodes": [],
+        "scope": 1185,
+        "src": "62:31:8",
+        "usedErrors": []
+      }
+    ],
+    "src": "35:58:8"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.8.7+commit.e28d00a7.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.4.3",
+  "updatedAt": "2023-02-19T05:45:01.424Z",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  }
+}
